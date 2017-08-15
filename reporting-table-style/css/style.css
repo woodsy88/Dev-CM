@@ -1,7 +1,13 @@
-.report-row {
-    background-color: #eee;
-    height: 20px;
-    width: 100%;
+/*JUMBOTRON*/
+
+#jumbo {
+    background: #3f5263;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 
