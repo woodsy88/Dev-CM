@@ -1,33 +1,42 @@
+.table {
+		text-align: center;
+}
+
+th {
+			text-align: center !Important;
+}
+
+
 .report-row {
-    background-color: #eee;
-    height: 20px;
-    width: 100%;
+		background-color: #eee;
+		border-top-color: #fff !Important;
+ 		border-radius: 25px !important; 
+}
+
+.tabletest {
+border-collapse:separate; 
+border-spacing: 0 2em; 
+}
+
+td {
+    padding: 20px !Important;   
 }
 
 
-/*FONT-STYLES*/
-
-
-.bannerTitle {
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    font-size: 35px;
-    font-weight: 600;
-    line-height: 1.5;
-    letter-spacing: 0.6px;
-    text-align: center;
+/*
+tr {
+    background: lightblue;
+    display: block;
 }
 
-
-.subHeader {
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    font-size: 35px;
-    font-weight: 300;
-    line-height: 1.5;
-    letter-spacing: 0.6px;
-    text-align: center;
+tr.spaced {
+     margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px !important; 
+    height: 50px;
 }
+
+*/
 
 
 
